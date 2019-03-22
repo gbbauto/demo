@@ -1,5 +1,5 @@
 {
-  "orderEntry.psp": {
+  "checkStock": {
     "responseDetail": {
         "azstock": "000000000",       
         "bxstock": "000000001",       
@@ -16,5 +16,42 @@
         "venstock": "000000000"       
     },
     "responseStatus": "Success"
+  },
+  "quote": {
+    "orderFileXML":           
+        "<PAOrderEntry>
+            <version>.2</version>
+            <order>
+                <header>
+                    <cust_num>99999</cust_num>
+                    <cust_name>JOHN DOE</cust_name>
+                    <ship_add1>123 ANY STREET</ship_add1>
+                    <ship_add2>APT 1A</ship_add2>
+                    <ship_city>ANYWHERE</ship_city>
+                    <ship_state>ZZ</ship_state>
+                    <ship_zip>12345</ship_zip>
+                    <ship_meth>???</ship_meth>
+                    <order_num>1234567890</order_num>
+                    <ship_country>US</ship_country>
+                    <admin_account>N</admin_account>
+                    <price_override>N</price_override>
+                    <location_number>8</location_number>
+                    <est_frt>0</est_frt>
+                    <conf_number>0</conf_number>
+                    <tax_amount>0.00</tax_amount>
+                    <paypal_number>0</paypal_number>
+                    <ordtype>Q</ordtype>
+                </header>
+                <item>
+                    <line_code>ZZ</line_code>
+                    <part_num>PP112233</part_num>
+                    <quantity>1</quantity>
+                    <cost>12.34</cost>
+                    <core/>
+                </item>
+            </order>
+        </PAOrderEntry>",
+    "responseDetail": "Your Order has been submitted successfully to the live system",
+    "responseStatus": "Success"    
   }
 }
