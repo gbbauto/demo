@@ -23,11 +23,11 @@
     "responseStatus": "Success"    
   },
   "getOrderInformation": {
-    "CustPoNum": "99X99X",              
+    "CustPoNum": "99X99X",         
     "InvoiceNum": "0",                 
     "OrderNum": "0",                  
     "PaPoNum": "50000010000",           
-    "ShippingCost": "",               
+    "ShippingCost": "",              
     "ShippingWeight": "",               
     "Status": "Entry Pending",         
     "TrackingNum": "",                  
@@ -35,6 +35,5 @@
     "brord": "9900000",                 
     "cust_num": "99999",                
     "entryTime": "2014-01-01 00:00:00"  
-    }
   }
 }
